@@ -168,6 +168,8 @@
         </div>
     </div>
   </div>
+    <!-- form novidades -->
+    <?php include 'novidades.html'?>
     <!-- Footer -->
     <?php include 'footer.html'?>
 </body>
