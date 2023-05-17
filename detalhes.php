@@ -24,8 +24,8 @@
       <div class = "d-flex">
 
         <!-- card left -->
-        <div class = "">
-          <img class="rounded imgdet" style="margin-left: -30px !important ;" src="<?php echo $dado['img'] ?>" alt="">
+        <div class ="" style="width: 470px;">
+          <img class="rounded imgdet" style="margin-left: -30px !important ;width: 470px" src="<?php echo $dado['img'] ?>" alt="">
           </div>
         <!-- card right -->
         <div class = "product-content">
@@ -45,8 +45,8 @@
             </ul>
           </div>
 
-          <div class = "purchase-info">
-            <input type = "number" min = "0" value = "1">
+          <div class = "purchase-info d-flex align-items-center">
+            <input class="" type = "number" min = "0" value = "1">
             <button type = "button" class = "btn bg-success">
               Adicionar ao carrinho <i class = "fas fa-shopping-cart"></i>
             </button>
